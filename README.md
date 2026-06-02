@@ -1,5 +1,4 @@
-# 💫 About Me:
-# 💫 About Me:<br>🔭 I'm currently working on<br><br><br>lifefundies—a financial education platform built with Next.js, Firebase & Framer Motion. Also working on a smart task management web app with smooth animations and responsive design.<br><br><br>🤝 I'm looking to collaborate on<br><br><br>Full-stack web apps, IoT systems, or anything at the intersection of AI and real-world impact. Especially open to startup ideas and student-led projects.<br><br><br>🫶 I'm looking for help with<br><br><br>Scaling Next.js apps, Firebase architecture, and exploring real-time features like live sessions via Daily.co.<br><br><br>🌱 I'm currently learning<br><br><br>Advanced Firebase, Framer Motion animations, ML integrations, and building production-ready full-stack applications.<br><br><br>💬 Ask me about<br><br><br>IoT systems (ESP32 & Arduino), React & Next.js, or how I built Focus Aura—an AI-powered attention monitoring system with a filed patent!<br><br><br>⚡ Fun fact<br><br><br>My CubeSat collision detection system ranked in the top 5 out of 900+ teams globally—I built it as a 2nd-year CSE student.
+### 💫 About Me:<br><br>🔭 **I'm currently working on**<br>lifefundies — a financial education platform built with Next.js, Firebase & Framer Motion. Also working on a smart task management web app with smooth animations and responsive design.<br><br>🤝 **I'm looking to collaborate on**<br>Full-stack web apps, IoT systems, or anything at the intersection of AI and real-world impact. Especially open to startup ideas and student-led projects.<br><br>🫶 **I'm looking for help with**<br>Scaling Next.js apps, Firebase architecture, and exploring real-time features like live sessions via Daily.co.<br><br>🌱 **I'm currently learning**<br>Advanced Firebase, Framer Motion animations, ML integrations, and building production-ready full-stack applications.<br><br>💬 **Ask me about**<br>IoT systems (ESP32 & Arduino), React & Next.js, or how I built Focus Aura — an AI-powered attention monitoring system with a filed patent!<br><br>⚡ **Fun fact**<br>My CubeSat collision detection system ranked Top 5 out of 900+ teams globally — built it as a 1st year CSE student.
 
 
 ## 🌐 Socials:
@@ -22,6 +21,6 @@
 ![](https://github-contributor-stats.vercel.app/api?username=PushkarSingh1204&limit=5&theme=synthwave&combine_all_yearly_contributions=true)
 
 ---
-[![](https://komarev.com/ghpvc/?username=PushkarSingh1204&icon=10&color=13)](https://visitcount.itsvg.in)
+[![](https://komarev.com/ghpvc/?username=PushkarSingh1204&label=Profile%20Views&color=blueviolet&style=for-the-badge)](https://github.com/PushkarSingh1204)
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
