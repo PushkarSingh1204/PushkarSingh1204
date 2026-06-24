@@ -16,25 +16,119 @@ export default function App() {
 
   // Tech stack definitions matching the original list
   const techStack = [
-    { name: 'HTML5', category: 'Language', animationType: 'html', icon: <Code2 className="w-6 h-6 text-orange-500" /> },
-    { name: 'CSS3', category: 'Language', animationType: 'css', icon: <Layers className="w-6 h-6 text-cyan-500" /> },
-    { name: 'JavaScript', category: 'Language', animationType: 'javascript', icon: <Zap className="w-6 h-6 text-yellow-500" /> },
-    { name: 'TypeScript', category: 'Language', animationType: 'typescript', icon: <Code2 className="w-6 h-6 text-blue-500" /> },
-    { name: 'Python', category: 'Language', animationType: 'python', icon: <Compass className="w-6 h-6 text-blue-400" /> },
-    { name: 'Node.js', category: 'Runtime', animationType: 'nodejs', icon: <Cpu className="w-6 h-6 text-green-500" /> },
-    { name: 'Next.js', category: 'Framework', animationType: 'nextjs', icon: <Disc className="w-6 h-6 text-white" /> },
-    { name: 'Framer Motion', category: 'Library', animationType: 'framer', icon: <Layers className="w-6 h-6 text-indigo-500" /> },
-    { name: 'TensorFlow', category: 'AI/ML', animationType: 'tensorflow', icon: <Cpu className="w-6 h-6 text-orange-600" /> },
-    { name: 'Firebase', category: 'Database', animationType: 'firebase', icon: <Database className="w-6 h-6 text-yellow-500" /> },
-    { name: 'Arduino', category: 'IoT/HW', animationType: 'arduino', icon: <Cpu className="w-6 h-6 text-teal-500" /> },
-    { name: 'Raspberry Pi', category: 'IoT/HW', animationType: 'raspberrypi', icon: <Cpu className="w-6 h-6 text-red-500" /> },
-    { name: 'Git', category: 'VCS', animationType: 'git', icon: <Settings className="w-6 h-6 text-orange-600" /> },
-    { name: 'GitHub', category: 'VCS', animationType: 'github', icon: <Settings className="w-6 h-6 text-white" /> },
-    { name: 'Figma', category: 'Design', animationType: 'figma', icon: <Layers className="w-6 h-6 text-purple-400" /> },
-    { name: 'Postman', category: 'API Tool', animationType: 'postman', icon: <Settings className="w-6 h-6 text-orange-500" /> },
-    { name: 'Notion', category: 'Productivity', animationType: 'notion', icon: <Layers className="w-6 h-6 text-slate-300" /> },
-    { name: 'Canva', category: 'Design', animationType: 'canva', icon: <Layers className="w-6 h-6 text-teal-400" /> },
-    { name: 'Illustrator', category: 'Design', animationType: 'illustrator', icon: <Layers className="w-6 h-6 text-orange-500" /> },
+    { name: 'HTML5', category: 'Language', animationType: 'html', icon: (
+      <svg className="w-6 h-6" viewBox="0 0 24 24" fill="none">
+        <path d="M3 2L21 2L19 18L12 22L5 18L3 2Z" fill="#E34F26" />
+        <path d="M12 4L12 20L17.5 17L19 4Z" fill="#F06529" />
+      </svg>
+    )},
+    { name: 'CSS3', category: 'Language', animationType: 'css', icon: (
+      <svg className="w-6 h-6" viewBox="0 0 24 24" fill="none">
+        <path d="M3 2L21 2L19 18L12 22L5 18L3 2Z" fill="#1572B6" />
+        <path d="M12 4L12 20L17.5 17L19 4Z" fill="#29ABE2" />
+      </svg>
+    )},
+    { name: 'JavaScript', category: 'Language', animationType: 'javascript', icon: (
+      <svg className="w-6 h-6" viewBox="0 0 24 24" fill="none">
+        <rect width="24" height="24" rx="4" fill="#F7DF1E" />
+        <text x="12" y="16" fill="black" fontSize="11" fontWeight="bold" textAnchor="middle" fontFamily="monospace">JS</text>
+      </svg>
+    )},
+    { name: 'TypeScript', category: 'Language', animationType: 'typescript', icon: (
+      <svg className="w-6 h-6" viewBox="0 0 24 24" fill="none">
+        <rect width="24" height="24" rx="4" fill="#3178C6" />
+        <text x="12" y="16" fill="white" fontSize="11" fontWeight="bold" textAnchor="middle" fontFamily="monospace">TS</text>
+      </svg>
+    )},
+    { name: 'Python', category: 'Language', animationType: 'python', icon: (
+      <svg className="w-6 h-6" viewBox="0 0 24 24" fill="none">
+        <circle cx="9" cy="9" r="6" fill="#3776AB" />
+        <circle cx="15" cy="15" r="6" fill="#FFE052" />
+      </svg>
+    )},
+    { name: 'Node.js', category: 'Runtime', animationType: 'nodejs', icon: (
+      <svg className="w-6 h-6" viewBox="0 0 24 24" fill="none">
+        <polygon points="4,7 12,2 20,7 20,17 12,22 4,17" fill="#339933" />
+      </svg>
+    )},
+    { name: 'Next.js', category: 'Framework', animationType: 'nextjs', icon: (
+      <svg className="w-6 h-6" viewBox="0 0 24 24" fill="none">
+        <circle cx="12" cy="12" r="11" fill="black" stroke="white" strokeWidth="1.5" />
+        <text x="12" y="16" fill="white" fontSize="12" fontWeight="bold" textAnchor="middle" fontFamily="sans-serif">N</text>
+      </svg>
+    )},
+    { name: 'Framer Motion', category: 'Library', animationType: 'framer', icon: (
+      <svg className="w-6 h-6" viewBox="0 0 24 24" fill="none">
+        <polygon points="2,2 22,2 12,12" fill="#0055FF" />
+        <polygon points="12,12 22,22 2,22" fill="#FF00C8" />
+      </svg>
+    )},
+    { name: 'TensorFlow', category: 'AI/ML', animationType: 'tensorflow', icon: (
+      <svg className="w-6 h-6" viewBox="0 0 24 24" fill="none">
+        <polygon points="4,7 12,2 20,7 20,17 12,22 4,17" fill="#FF6F00" />
+      </svg>
+    )},
+    { name: 'Firebase', category: 'Database', animationType: 'firebase', icon: (
+      <svg className="w-6 h-6" viewBox="0 0 24 24" fill="none">
+        <path d="M4 20 L12 2 L20 20 L12 22 Z" fill="#FFCA28" />
+      </svg>
+    )},
+    { name: 'Arduino', category: 'IoT/HW', animationType: 'arduino', icon: (
+      <svg className="w-6 h-6" viewBox="0 0 24 24" fill="none">
+        <circle cx="8" cy="12" r="5" fill="none" stroke="#00979D" strokeWidth="2" />
+        <circle cx="16" cy="12" r="5" fill="none" stroke="#00979D" strokeWidth="2" />
+      </svg>
+    )},
+    { name: 'Raspberry Pi', category: 'IoT/HW', animationType: 'raspberrypi', icon: (
+      <svg className="w-6 h-6" viewBox="0 0 24 24" fill="none">
+        <circle cx="12" cy="14" r="7" fill="#C51A4A" />
+        <path d="M9 6 Q12 10 15 6" fill="none" stroke="#228B22" strokeWidth="2" />
+      </svg>
+    )},
+    { name: 'Git', category: 'VCS', animationType: 'git', icon: (
+      <svg className="w-6 h-6" viewBox="0 0 24 24" fill="none">
+        <circle cx="12" cy="6" r="3" fill="none" stroke="#F05032" strokeWidth="2" />
+        <circle cx="12" cy="18" r="3" fill="none" stroke="#F05032" strokeWidth="2" />
+        <path d="M12 9 L12 15" stroke="#F05032" strokeWidth="2" />
+        <path d="M12 12 Q19 12 20 12" stroke="#F05032" strokeWidth="2" fill="none" />
+      </svg>
+    )},
+    { name: 'GitHub', category: 'VCS', animationType: 'github', icon: (
+      <svg className="w-6 h-6" viewBox="0 0 24 24" fill="none">
+        <circle cx="12" cy="12" r="9" fill="white" />
+        <path d="M8 8 L7 10 M16 8 L17 10" stroke="black" strokeWidth="1.5" />
+      </svg>
+    )},
+    { name: 'Figma', category: 'Design', animationType: 'figma', icon: (
+      <svg className="w-6 h-6" viewBox="0 0 24 24" fill="none">
+        <circle cx="8" cy="6" r="4" fill="#F24E1E" />
+        <circle cx="16" cy="6" r="4" fill="#A259FF" />
+        <circle cx="8" cy="14" r="4" fill="#0ACF83" />
+        <circle cx="16" cy="14" r="4" fill="#1ABC9C" />
+      </svg>
+    )},
+    { name: 'Postman', category: 'API Tool', animationType: 'postman', icon: (
+      <svg className="w-6 h-6" viewBox="0 0 24 24" fill="none">
+        <path d="M6 20 L12 4 L18 20 Z" fill="#FF6C37" />
+      </svg>
+    )},
+    { name: 'Notion', category: 'Productivity', animationType: 'notion', icon: (
+      <svg className="w-6 h-6" viewBox="0 0 24 24" fill="none">
+        <rect x="2" y="2" width="20" height="20" rx="3" fill="white" stroke="black" strokeWidth="2" />
+        <text x="12" y="16" fill="black" fontSize="12" fontWeight="bold" textAnchor="middle" fontFamily="sans-serif">N</text>
+      </svg>
+    )},
+    { name: 'Canva', category: 'Design', animationType: 'canva', icon: (
+      <svg className="w-6 h-6" viewBox="0 0 24 24" fill="none">
+        <circle cx="12" cy="12" r="9" fill="#00C4CC" />
+      </svg>
+    )},
+    { name: 'Illustrator', category: 'Design', animationType: 'illustrator', icon: (
+      <svg className="w-6 h-6" viewBox="0 0 24 24" fill="none">
+        <rect x="2" y="2" width="20" height="20" rx="3" fill="#330000" stroke="#FF9A00" strokeWidth="2" />
+        <text x="12" y="16" fill="#FF9A00" fontSize="10" fontWeight="bold" textAnchor="middle" fontFamily="sans-serif">Ai</text>
+      </svg>
+    )},
   ];
 
   // Inactivity tracking (10s sync pulse trigger)
