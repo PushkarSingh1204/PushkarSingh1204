@@ -63,15 +63,17 @@
 
 ## 💻 Tech Stack
 
-<div align="center">
-  <img src="assets/tech_stack.svg" width="100%" alt="Cyberpunk Reactor Tech Stack Console" />
+<p align="center">
+  <img src="./assets/tech_stack.svg" width="100%" alt="Cyberpunk Reactor Tech Stack Console">
+</p>
   
-  <br><br>
+  <br>
 
-  <a href="https://PushkarSingh1204.github.io/showcase/" target="_blank">
-    <img src="https://img.shields.io/badge/ENTER_INTERACTIVE_HUD_DASHBOARD-00BFFF?style=for-the-badge&logo=react&logoColor=black" alt="Enter Interactive HUD Dashboard" />
-  </a>
-</div>
+  <div align="center">
+    <a href="https://PushkarSingh1204.github.io/PushkarSingh1204/showcase/" target="_blank">
+      <img src="https://img.shields.io/badge/ENTER_INTERACTIVE_HUD_DASHBOARD-00BFFF?style=for-the-badge&logo=react&logoColor=black" alt="Enter Interactive HUD Dashboard" />
+    </a>
+  </div>
 
 <br>
 <img src="assets/divider.svg" width="100%" />

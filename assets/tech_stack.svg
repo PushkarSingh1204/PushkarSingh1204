@@ -88,7 +88,7 @@
       animation: float-particle 12s ease-in-out infinite alternate;
     }
 
-    /* Node & Card Animations */
+    /* Node and Card Animations */
     .tech-node {
       transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275), filter 0.3s ease;
       cursor: pointer;
@@ -203,7 +203,7 @@
   <circle cx="450" cy="50" r="1.5" class="particle-p" style="animation-delay: 3s;"/>
   <circle cx="550" cy="600" r="1" class="particle" style="animation-delay: 5s;"/>
 
-  <!-- Glowing Telemetry Lines & Circuit Paths -->
+  <!-- Glowing Telemetry Lines and Circuit Paths -->
   <g stroke="url(#grad-blue-purple)" stroke-width="1.5" fill="none" opacity="0.6">
     <!-- Left Circuit Tree -->
     <path d="M 350 325 L 430 325" />
@@ -256,7 +256,7 @@
 
   <!-- ==================== TECH STACK NODES ==================== -->
 
-  <!-- LANGS & RUNTIMES (LEFT SIDE) -->
+  <!-- LANGS and RUNTIMES (LEFT SIDE) -->
   
   <!-- 1. HTML5 -->
   <g class="tech-node awaken-node" style="animation-delay: 0.1s; transform-origin: 300px 150px;" transform="translate(0,0)">
@@ -306,7 +306,7 @@
     <path d="M 230 550 C 265 560 335 540 370 550" fill="none" stroke="#8A2BE2" stroke-width="1.5" class="helix-b" />
   </g>
 
-  <!-- FRAMEWORKS & LIBRARIES (RIGHT SIDE) -->
+  <!-- FRAMEWORKS and LIBRARIES (RIGHT SIDE) -->
 
   <!-- 6. Next.js -->
   <g class="tech-node awaken-node" style="animation-delay: 0.15s; transform-origin: 700px 150px;">
@@ -332,7 +332,7 @@
     <text x="700" y="455" font-size="12" text-anchor="middle" font-weight="bold">FIREBASE</text>
   </g>
 
-  <!-- IoT & HARDWARE (TOP/BOTTOM CENTER) -->
+  <!-- IoT and HARDWARE (TOP/BOTTOM CENTER) -->
 
   <!-- 10. Arduino -->
   <g class="tech-node awaken-node" style="animation-delay: 0.3s; transform-origin: 500px 100px;">
@@ -346,7 +346,7 @@
     <text x="500" y="555" font-size="12" text-anchor="middle" font-weight="bold">RASPBERRY PI</text>
   </g>
 
-  <!-- TOOLS, DESIGN & VCS (OUTER PERIPHERY) -->
+  <!-- TOOLS, DESIGN and VCS (OUTER PERIPHERY) -->
 
   <!-- 12. Git -->
   <g class="tech-node awaken-node" style="animation-delay: 0.1s; transform-origin: 70px 200px;">
