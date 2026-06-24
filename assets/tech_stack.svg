@@ -1,0 +1,408 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 650" width="100%" height="100%">
+  <defs>
+    <!-- Background Grid Pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#161b22" stroke-width="1" opacity="0.3"/>
+      <circle cx="40" cy="40" r="1.5" fill="#00BFFF" opacity="0.15"/>
+    </pattern>
+
+    <!-- Glowing Filters -->
+    <filter id="glow-blue" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <filter id="glow-purple" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <filter id="glow-active" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="12" result="blur1" />
+      <feGaussianBlur stdDeviation="6" result="blur2" />
+      <feMerge>
+        <feMergeNode in="blur1" />
+        <feMergeNode in="blur2" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <!-- Linear Gradients -->
+    <linearGradient id="grad-blue-purple" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00BFFF"/>
+      <stop offset="100%" stop-color="#8A2BE2"/>
+    </linearGradient>
+
+    <linearGradient id="grad-purple-blue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8A2BE2"/>
+      <stop offset="100%" stop-color="#00BFFF"/>
+    </linearGradient>
+
+    <linearGradient id="scan-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#00BFFF" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#00BFFF" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#00BFFF" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    /* Global Styles */
+    text {
+      font-family: 'Fira Code', 'Courier New', monospace;
+      fill: #ffffff;
+      user-select: none;
+    }
+    .accent-blue { fill: #00BFFF; }
+    .accent-purple { fill: #8A2BE2; }
+
+    /* Core System Animations */
+    .spin-clockwise {
+      transform-origin: 500px 325px;
+      animation: spin 20s linear infinite;
+    }
+    .spin-counter {
+      transform-origin: 500px 325px;
+      animation: spin-reverse 25s linear infinite;
+    }
+    .pulse-glow {
+      animation: pulse 3s ease-in-out infinite;
+    }
+    .circuit-pulse {
+      stroke-dasharray: 10 80;
+      animation: circuit-run 6s linear infinite;
+    }
+    
+    /* Background Space Particles */
+    .particle {
+      fill: #00BFFF;
+      animation: float-particle 8s ease-in-out infinite alternate;
+    }
+    .particle-p {
+      fill: #8A2BE2;
+      animation: float-particle 12s ease-in-out infinite alternate;
+    }
+
+    /* Node & Card Animations */
+    .tech-node {
+      transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275), filter 0.3s ease;
+      cursor: pointer;
+    }
+    .tech-node:hover {
+      transform: scale(1.12);
+      filter: url(#glow-active);
+    }
+
+    /* Individual Custom Animations */
+    /* 1. HTML: Orbiting Particles */
+    .orbit-particle {
+      transform-origin: 300px 150px;
+      animation: spin 4s linear infinite;
+    }
+    /* 2. CSS: Liquid neon wave */
+    .css-wave {
+      stroke-dasharray: 200;
+      stroke-dashoffset: 200;
+      animation: wave-flow 4s linear infinite;
+    }
+    /* 3. JS: Electric Sparks */
+    .spark {
+      opacity: 0;
+      animation: lightning 5s infinite;
+    }
+    /* 4. TS: Holographic Scanline */
+    .scan-line {
+      animation: scan 3s ease-in-out infinite;
+    }
+    /* 5. Python: Dual energy helix streams */
+    .helix-a {
+      stroke-dasharray: 8 20;
+      animation: circuit-run 4s linear infinite;
+    }
+    .helix-b {
+      stroke-dasharray: 8 20;
+      animation: circuit-run 4s linear infinite reverse;
+    }
+    /* 6. Node.js: Matrix fall */
+    .matrix-dot {
+      animation: matrix-fall 2.5s linear infinite;
+    }
+
+    /* Sequential Tech Awakening Entrance */
+    .awaken-node {
+      animation: materialize 1s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+      opacity: 0;
+    }
+
+    /* System pulse overlay on 10s idle (simulated loop) */
+    .core-pulse-wave {
+      transform-origin: 500px 325px;
+      animation: radial-pulse 8s cubic-bezier(0.1, 0.8, 0.3, 1) infinite;
+    }
+
+    /* Keyframe Definitions */
+    @keyframes spin {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+    @keyframes spin-reverse {
+      from { transform: rotate(360deg); }
+      to { transform: rotate(0deg); }
+    }
+    @keyframes pulse {
+      0%, 100% { opacity: 0.3; }
+      50% { opacity: 0.8; }
+    }
+    @keyframes circuit-run {
+      to { stroke-dashoffset: -90; }
+    }
+    @keyframes wave-flow {
+      to { stroke-dashoffset: 0; }
+    }
+    @keyframes lightning {
+      0%, 94%, 96%, 98%, 100% { opacity: 0; }
+      95%, 97%, 99% { opacity: 1; }
+    }
+    @keyframes scan {
+      0%, 100% { y: -20; }
+      50% { y: 20; }
+    }
+    @keyframes matrix-fall {
+      0% { transform: translateY(-15px); opacity: 0; }
+      50% { opacity: 1; }
+      100% { transform: translateY(15px); opacity: 0; }
+    }
+    @keyframes float-particle {
+      0% { transform: translateY(0px) translateX(0px); opacity: 0.2; }
+      100% { transform: translateY(-20px) translateX(10px); opacity: 0.7; }
+    }
+    @keyframes materialize {
+      to { opacity: 1; }
+    }
+    @keyframes radial-pulse {
+      0% { r: 50px; opacity: 0.8; stroke-width: 4px; }
+      80% { opacity: 0; stroke-width: 1px; }
+      100% { r: 400px; opacity: 0; }
+    }
+  </style>
+
+  <!-- Deep Dark Cyberpunk Background -->
+  <rect width="1000" height="650" fill="#0D1117" />
+  <rect width="1000" height="650" fill="url(#grid)" />
+
+  <!-- Background Space Particles -->
+  <circle cx="120" cy="80" r="1.5" class="particle" style="animation-delay: 0s;"/>
+  <circle cx="820" cy="120" r="2" class="particle-p" style="animation-delay: 2s;"/>
+  <circle cx="200" cy="520" r="1" class="particle" style="animation-delay: 4s;"/>
+  <circle cx="900" cy="480" r="2" class="particle" style="animation-delay: 1s;"/>
+  <circle cx="450" cy="50" r="1.5" class="particle-p" style="animation-delay: 3s;"/>
+  <circle cx="550" cy="600" r="1" class="particle" style="animation-delay: 5s;"/>
+
+  <!-- Glowing Telemetry Lines & Circuit Paths -->
+  <g stroke="url(#grad-blue-purple)" stroke-width="1.5" fill="none" opacity="0.6">
+    <!-- Left Circuit Tree -->
+    <path d="M 350 325 L 430 325" />
+    <path d="M 300 150 L 300 250 L 300 350 L 300 450 L 300 550" />
+    <path d="M 300 350 L 350 325" />
+    <!-- Right Circuit Tree -->
+    <path d="M 650 325 L 570 325" />
+    <path d="M 700 150 L 700 250 L 700 350 L 700 450" />
+    <path d="M 700 350 L 650 325" />
+    <!-- IoT Circuits -->
+    <path d="M 500 150 L 500 220" />
+    <path d="M 500 500 L 500 430" />
+    <!-- Sub Outer Branching -->
+    <path d="M 300 250 L 150 200" />
+    <path d="M 300 350 L 150 325" />
+    <path d="M 300 450 L 150 450" />
+    <path d="M 700 250 L 850 200" />
+    <path d="M 700 350 L 850 325" />
+    <path d="M 700 450 L 850 450" />
+  </g>
+
+  <!-- Animated Circuit Pulses -->
+  <g stroke="#00BFFF" stroke-width="2.5" fill="none">
+    <path d="M 350 325 L 430 325" class="circuit-pulse" />
+    <path d="M 650 325 L 570 325" class="circuit-pulse" style="animation-delay: 2s;" />
+    <path d="M 300 150 L 300 550" class="circuit-pulse" style="animation-delay: 1s;" />
+    <path d="M 700 150 L 700 450" class="circuit-pulse" style="animation-delay: 3s;" />
+  </g>
+
+  <!-- Massive Periodic Idle Core Pulse Wave -->
+  <circle cx="500" cy="325" r="50" fill="none" stroke="#8A2BE2" class="core-pulse-wave" />
+
+  <!-- CENTRAL REACTOR CORE (Jarvis HUD Style) -->
+  <g transform="translate(0, 0)">
+    <!-- Rotating outer dashboard ring -->
+    <circle cx="500" cy="325" r="90" fill="none" stroke="#00BFFF" stroke-width="1.5" stroke-dasharray="180 40 20 40" class="spin-clockwise" filter="url(#glow-blue)" />
+    <circle cx="500" cy="325" r="75" fill="none" stroke="#8A2BE2" stroke-width="1" stroke-dasharray="10 20 40 20" class="spin-counter" />
+    
+    <!-- Pulse glowing inner ring -->
+    <circle cx="500" cy="325" r="60" fill="none" stroke="#00BFFF" stroke-width="2" opacity="0.5" class="pulse-glow" />
+    <circle cx="500" cy="325" r="55" fill="none" stroke="#8A2BE2" stroke-dasharray="5 5" opacity="0.3" class="spin-clockwise" />
+
+    <!-- Core Center Hexagon -->
+    <polygon points="500,295 526,310 526,340 500,355 474,340 474,310" fill="#0D1117" stroke="url(#grad-blue-purple)" stroke-width="3" filter="url(#glow-blue)"/>
+    
+    <!-- System Telemetry Inside Reactor -->
+    <text x="500" y="322" font-size="10" text-anchor="middle" font-weight="bold" fill="#00BFFF" class="pulse-glow">SYS: ON</text>
+    <text x="500" y="334" font-size="7" text-anchor="middle" fill="#8A2BE2" letter-spacing="1">PUSH-1204</text>
+  </g>
+
+  <!-- ==================== TECH STACK NODES ==================== -->
+
+  <!-- LANGS & RUNTIMES (LEFT SIDE) -->
+  
+  <!-- 1. HTML5 -->
+  <g class="tech-node awaken-node" style="animation-delay: 0.1s; transform-origin: 300px 150px;" transform="translate(0,0)">
+    <rect x="220" y="130" width="160" height="40" rx="8" fill="#0D1117" stroke="#E34F26" stroke-width="2" filter="url(#glow-purple)"/>
+    <text x="300" y="155" font-size="12" text-anchor="middle" font-weight="bold">HTML5</text>
+    <!-- Custom Orbiting Particles -->
+    <circle cx="300" cy="150" r="100" fill="none" />
+    <g class="orbit-particle">
+      <circle cx="300" cy="115" r="3" fill="#E34F26" filter="url(#glow-blue)"/>
+      <circle cx="300" cy="185" r="3" fill="#E34F26" filter="url(#glow-blue)"/>
+    </g>
+  </g>
+
+  <!-- 2. CSS3 -->
+  <g class="tech-node awaken-node" style="animation-delay: 0.2s; transform-origin: 300px 250px;">
+    <rect x="220" y="230" width="160" height="40" rx="8" fill="#0D1117" stroke="#1572B6" stroke-width="2" filter="url(#glow-blue)"/>
+    <text x="300" y="255" font-size="12" text-anchor="middle" font-weight="bold">CSS3</text>
+    <!-- Custom Wave flow path -->
+    <path d="M 230 250 Q 265 240 300 250 T 370 250" fill="none" stroke="#00BFFF" stroke-width="1.5" class="css-wave" opacity="0.7"/>
+  </g>
+
+  <!-- 3. JavaScript -->
+  <g class="tech-node awaken-node" style="animation-delay: 0.3s; transform-origin: 300px 350px;">
+    <rect x="220" y="330" width="160" height="40" rx="8" fill="#0D1117" stroke="#F7DF1E" stroke-width="2" filter="url(#glow-purple)"/>
+    <text x="300" y="355" font-size="12" text-anchor="middle" font-weight="bold">JAVASCRIPT</text>
+    <!-- Custom Lightning Spark -->
+    <path d="M 235 340 L 245 350 L 240 355 L 255 365" fill="none" stroke="#F7DF1E" stroke-width="2" class="spark" filter="url(#glow-blue)"/>
+    <path d="M 365 340 L 355 350 L 360 355 L 345 365" fill="none" stroke="#F7DF1E" stroke-width="2" class="spark" filter="url(#glow-blue)" style="animation-delay: 1.5s;"/>
+  </g>
+
+  <!-- 4. TypeScript -->
+  <g class="tech-node awaken-node" style="animation-delay: 0.4s; transform-origin: 300px 450px;">
+    <rect x="220" y="430" width="160" height="40" rx="8" fill="#0D1117" stroke="#3178C6" stroke-width="2" filter="url(#glow-blue)"/>
+    <text x="300" y="455" font-size="12" text-anchor="middle" font-weight="bold">TYPESCRIPT</text>
+    <!-- Custom Holographic Scanline -->
+    <g class="scan-line" transform="translate(220, 450)">
+      <rect x="2" width="156" height="5" fill="url(#scan-grad)"/>
+    </g>
+  </g>
+
+  <!-- 5. Python -->
+  <g class="tech-node awaken-node" style="animation-delay: 0.5s; transform-origin: 300px 550px;">
+    <rect x="220" y="530" width="160" height="40" rx="8" fill="#0D1117" stroke="#3776AB" stroke-width="2" filter="url(#glow-purple)"/>
+    <text x="300" y="555" font-size="12" text-anchor="middle" font-weight="bold">PYTHON</text>
+    <!-- Helix Energy Streams -->
+    <path d="M 230 550 C 265 540 335 560 370 550" fill="none" stroke="#00BFFF" stroke-width="1.5" class="helix-a" />
+    <path d="M 230 550 C 265 560 335 540 370 550" fill="none" stroke="#8A2BE2" stroke-width="1.5" class="helix-b" />
+  </g>
+
+  <!-- FRAMEWORKS & LIBRARIES (RIGHT SIDE) -->
+
+  <!-- 6. Next.js -->
+  <g class="tech-node awaken-node" style="animation-delay: 0.15s; transform-origin: 700px 150px;">
+    <rect x="620" y="130" width="160" height="40" rx="8" fill="#0D1117" stroke="#8A2BE2" stroke-width="2" filter="url(#glow-purple)"/>
+    <text x="700" y="155" font-size="12" text-anchor="middle" font-weight="bold">NEXT.JS</text>
+  </g>
+
+  <!-- 7. Framer Motion -->
+  <g class="tech-node awaken-node" style="animation-delay: 0.25s; transform-origin: 700px 250px;">
+    <rect x="620" y="230" width="160" height="40" rx="8" fill="#0D1117" stroke="#0055FF" stroke-width="2" filter="url(#glow-blue)"/>
+    <text x="700" y="255" font-size="11" text-anchor="middle" font-weight="bold">FRAMER MOTION</text>
+  </g>
+
+  <!-- 8. TensorFlow -->
+  <g class="tech-node awaken-node" style="animation-delay: 0.35s; transform-origin: 700px 350px;">
+    <rect x="620" y="330" width="160" height="40" rx="8" fill="#0D1117" stroke="#FF6F00" stroke-width="2" filter="url(#glow-purple)"/>
+    <text x="700" y="355" font-size="12" text-anchor="middle" font-weight="bold">TENSORFLOW</text>
+  </g>
+
+  <!-- 9. Firebase -->
+  <g class="tech-node awaken-node" style="animation-delay: 0.45s; transform-origin: 700px 450px;">
+    <rect x="620" y="430" width="160" height="40" rx="8" fill="#0D1117" stroke="#FFCA28" stroke-width="2" filter="url(#glow-blue)"/>
+    <text x="700" y="455" font-size="12" text-anchor="middle" font-weight="bold">FIREBASE</text>
+  </g>
+
+  <!-- IoT & HARDWARE (TOP/BOTTOM CENTER) -->
+
+  <!-- 10. Arduino -->
+  <g class="tech-node awaken-node" style="animation-delay: 0.3s; transform-origin: 500px 100px;">
+    <rect x="420" y="80" width="160" height="40" rx="8" fill="#0D1117" stroke="#00979D" stroke-width="2" filter="url(#glow-blue)"/>
+    <text x="500" y="105" font-size="12" text-anchor="middle" font-weight="bold">ARDUINO</text>
+  </g>
+
+  <!-- 11. Raspberry Pi -->
+  <g class="tech-node awaken-node" style="animation-delay: 0.4s; transform-origin: 500px 550px;">
+    <rect x="420" y="530" width="160" height="40" rx="8" fill="#0D1117" stroke="#C51A4A" stroke-width="2" filter="url(#glow-purple)"/>
+    <text x="500" y="555" font-size="12" text-anchor="middle" font-weight="bold">RASPBERRY PI</text>
+  </g>
+
+  <!-- TOOLS, DESIGN & VCS (OUTER PERIPHERY) -->
+
+  <!-- 12. Git -->
+  <g class="tech-node awaken-node" style="animation-delay: 0.1s; transform-origin: 70px 200px;">
+    <rect x="20" y="180" width="100" height="40" rx="6" fill="#0D1117" stroke="#F05032" stroke-width="1.5" filter="url(#glow-purple)"/>
+    <text x="70" y="205" font-size="11" text-anchor="middle" font-weight="bold">GIT</text>
+  </g>
+
+  <!-- 13. GitHub -->
+  <g class="tech-node awaken-node" style="animation-delay: 0.2s; transform-origin: 70px 325px;">
+    <rect x="20" y="305" width="100" height="40" rx="6" fill="#0D1117" stroke="#ffffff" stroke-width="1.5" filter="url(#glow-blue)"/>
+    <text x="70" y="330" font-size="11" text-anchor="middle" font-weight="bold">GITHUB</text>
+  </g>
+
+  <!-- 14. Figma -->
+  <g class="tech-node awaken-node" style="animation-delay: 0.3s; transform-origin: 70px 450px;">
+    <rect x="20" y="430" width="100" height="40" rx="6" fill="#0D1117" stroke="#F24E1E" stroke-width="1.5" filter="url(#glow-purple)"/>
+    <text x="70" y="455" font-size="11" text-anchor="middle" font-weight="bold">FIGMA</text>
+  </g>
+
+  <!-- 15. Postman -->
+  <g class="tech-node awaken-node" style="animation-delay: 0.15s; transform-origin: 930px 200px;">
+    <rect x="880" y="180" width="100" height="40" rx="6" fill="#0D1117" stroke="#FF6C37" stroke-width="1.5" filter="url(#glow-blue)"/>
+    <text x="930" y="205" font-size="11" text-anchor="middle" font-weight="bold">POSTMAN</text>
+  </g>
+
+  <!-- 16. Notion -->
+  <g class="tech-node awaken-node" style="animation-delay: 0.25s; transform-origin: 930px 325px;">
+    <rect x="880" y="305" width="100" height="40" rx="6" fill="#0D1117" stroke="#ffffff" stroke-width="1.5" filter="url(#glow-purple)"/>
+    <text x="930" y="330" font-size="11" text-anchor="middle" font-weight="bold">NOTION</text>
+  </g>
+
+  <!-- 17. Canva -->
+  <g class="tech-node awaken-node" style="animation-delay: 0.35s; transform-origin: 930px 450px;">
+    <rect x="880" y="430" width="100" height="40" rx="6" fill="#0D1117" stroke="#00C4CC" stroke-width="1.5" filter="url(#glow-blue)"/>
+    <text x="930" y="455" font-size="11" text-anchor="middle" font-weight="bold">CANVA</text>
+  </g>
+
+  <!-- 18. Adobe Illustrator -->
+  <g class="tech-node awaken-node" style="animation-delay: 0.45s; transform-origin: 930px 550px;">
+    <rect x="880" y="530" width="100" height="40" rx="6" fill="#0D1117" stroke="#FF9A00" stroke-width="1.5" filter="url(#glow-purple)"/>
+    <text x="930" y="555" font-size="10" text-anchor="middle" font-weight="bold">ILLUSTRATOR</text>
+  </g>
+
+  <!-- 19. Node.js (Floating below reactor) -->
+  <g class="tech-node awaken-node" style="animation-delay: 0.5s; transform-origin: 500px 450px;">
+    <rect x="420" y="430" width="160" height="40" rx="8" fill="#0D1117" stroke="#339933" stroke-width="2" filter="url(#glow-blue)"/>
+    <text x="500" y="455" font-size="12" text-anchor="middle" font-weight="bold">NODE.JS</text>
+    <!-- Matrix falling dots -->
+    <g class="matrix-dot" transform="translate(500, 450)">
+      <circle cx="-65" cy="-20" r="1.5" fill="#339933" />
+      <circle cx="-65" cy="-10" r="1.5" fill="#339933" opacity="0.6"/>
+      <circle cx="-65" cy="0" r="1.5" fill="#339933" opacity="0.3"/>
+      
+      <circle cx="65" cy="-20" r="1.5" fill="#339933" />
+      <circle cx="65" cy="-10" r="1.5" fill="#339933" opacity="0.6"/>
+      <circle cx="65" cy="0" r="1.5" fill="#339933" opacity="0.3"/>
+    </g>
+  </g>
+</svg>
