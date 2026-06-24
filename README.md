@@ -1,26 +1,240 @@
-### 💫 About Me:<br><br>🔭 **I'm currently working on**<br>lifefundies — a consultancy platform built with Next.js, Firebase & Framer Motion. Also working on a smart task management web app with smooth animations and responsive design.<br><br>🤝 **I'm looking to collaborate on**<br>Full-stack web apps, IoT systems, or anything at the intersection of AI and real-world impact. Especially open to startup ideas and student-led projects.<br><br>🫶 **I'm looking for help with**<br>Scaling Next.js apps, Firebase architecture, and exploring real-time features like live sessions via Daily.co.<br><br>🌱 **I'm currently learning**<br>Advanced Firebase, Framer Motion animations, ML integrations, and building production-ready full-stack applications.<br><br>💬 **Ask me about**<br>IoT systems (ESP32 & Arduino), React & Next.js, or how I built Focus Aura — an AI-powered attention monitoring system with a filed patent!<br><br>⚡ **Fun fact**<br>My CubeSat collision detection system ranked Top 5 out of 900+ teams globally — built it as a 1st year CSE student.
+<div align="center">
+  
+  <!-- Animated Header -->
+  <h1>👋 Hi, I'm <span style="color: #00BFFF;">Pushkar Singh</span></h1>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=00BFFF&center=true&vCenter=true&width=500&lines=Full+Stack+Developer;AI+%26+IoT+Enthusiast;Building+Real+World+Solutions;Open+Source+Contributor;Hackathon+Enthusiast" alt="Typing SVG" />
+  
+  <br>
 
+  <!-- Visitor Counter -->
+  <a href="https://github.com/PushkarSingh1204">
+    <img src="https://komarev.com/ghpvc/?username=PushkarSingh1204&label=PROFILE+VIEWS&color=8A2BE2&style=for-the-badge" alt="Profile Views" />
+  </a>
 
-## 🌐 Socials:
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/https://instagram.com/pushkarsngh_57) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://linkedin.com/in/pushkar-singh-78b55b322) [![Pinterest](https://img.shields.io/badge/Pinterest-%23E60023.svg?logo=Pinterest&logoColor=white)](https://pinterest.com/pushkarsngh_57) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:pushkarsingh.20061204@gmail.com) 
+  <br><br>
 
-# 💻 Tech Stack:
-![Python](https://img.shields.io/badge/python-3670A0?style=plastic&logo=python&logoColor=ffdd54) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=plastic&logo=javascript&logoColor=%23F7DF1E) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=plastic&logo=typescript&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=plastic&logo=css3&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=plastic&logo=html5&logoColor=white) ![Next JS](https://img.shields.io/badge/Next-black?style=plastic&logo=next.js&logoColor=white) ![Framer](https://img.shields.io/badge/Framer-black?style=plastic&logo=framer&logoColor=blue) ![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=plastic&logo=firebase) ![Arduino](https://img.shields.io/badge/-Arduino-00979D?style=plastic&logo=Arduino&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=plastic&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=plastic&logo=github&logoColor=white) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=plastic&logo=figma&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=plastic&logo=postman&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=plastic&logo=Canva&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=plastic&logo=TensorFlow&logoColor=white) ![Notion](https://img.shields.io/badge/Notion-%23000000.svg?style=plastic&logo=notion&logoColor=white) ![Raspberry Pi](https://img.shields.io/badge/-Raspberry_Pi-C51A4A?style=plastic&logo=Raspberry-Pi) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=plastic&logo=node.js&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-a08021?style=plastic&logo=firebase&logoColor=ffcd34) ![Adobe Illustrator](https://img.shields.io/badge/adobe%20illustrator-%23FF9A00.svg?style=plastic&logo=adobe%20illustrator&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.shion.dev/api?username=PushkarSingh1204&theme=nightowl&hide_border=false&include_all_commits=true&count_private=true)<br/>
-![](https://streak-stats.demolab.com/?user=PushkarSingh1204&theme=nightowl&hide_border=false)<br/>
-![](https://github-readme-stats.shion.dev/api/top-langs/?username=PushkarSingh1204&theme=nightowl&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
+  <!-- Hero Banner -->
+  <img src="assets/github_banner.png" alt="Pushkar Singh Banner" width="100%" />
 
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=PushkarSingh1204&theme=radical&no-frame=false&no-bg=true&margin-w=4)
+</div>
 
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
+<br>
+<img src="assets/divider.svg" width="100%" />
+<br>
 
-### 🔝 Top Contributed Repo
-![](https://github-contributor-stats.vercel.app/api?username=PushkarSingh1204&limit=5&theme=synthwave&combine_all_yearly_contributions=true)
+## 🔭 About Me
 
----
-[![](https://komarev.com/ghpvc/?username=PushkarSingh1204&label=Profile%20Views&color=blueviolet&style=for-the-badge)](https://github.com/PushkarSingh1204)
+<table border="0">
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🚀 Current Focus</h3>
+      <ul>
+        <li>🔭 <b>I'm currently working on</b><br>lifefundies — a consultancy platform built with Next.js, Firebase & Framer Motion. Also working on a smart task management web app with smooth animations and responsive design.</li>
+        <li>🌱 <b>I'm currently learning</b><br>Advanced Firebase, Framer Motion animations, ML integrations, and building production-ready full-stack applications.</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🤝 Collaboration & Learning</h3>
+      <ul>
+        <li>🤝 <b>I'm looking to collaborate on</b><br>Full-stack web apps, IoT systems, or anything at the intersection of AI and real-world impact. Especially open to startup ideas and student-led projects.</li>
+        <li>🫶 <b>I'm looking for help with</b><br>Scaling Next.js apps, Firebase architecture, and exploring real-time features like live sessions via Daily.co.</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>💬 Let's Talk</h3>
+      <ul>
+        <li>💬 <b>Ask me about</b><br>IoT systems (ESP32 & Arduino), React & Next.js, or how I built Focus Aura — an AI-powered attention monitoring system with a filed patent!</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h3>⚡ Fun Fact</h3>
+      <ul>
+        <li>⚡ <b>Fun fact</b><br>My CubeSat collision detection system ranked Top 5 out of 900+ teams globally — built it as a 1st year CSE student.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+<br>
+<img src="assets/divider.svg" width="100%" />
+<br>
+
+## 💻 Tech Stack
+
+<div align="center">
+  
+  <h4>🌐 Languages & Runtimes</h4>
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
+  
+  <br><br>
+  
+  <h4>⚡ Frameworks & Libraries</h4>
+  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js" />
+  <img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white" alt="Framer Motion" />
+  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow" />
+  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" alt="Firebase" />
+
+  <br><br>
+
+  <h4>🔌 IoT & Hardware</h4>
+  <img src="https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white" alt="Arduino" />
+  <img src="https://img.shields.io/badge/Raspberry_Pi-A22846?style=for-the-badge&logo=raspberrypi&logoColor=white" alt="Raspberry Pi" />
+
+  <br><br>
+
+  <h4>🛠️ Tools, Design & VCS</h4>
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt="Figma" />
+  <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" alt="Postman" />
+  <img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white" alt="Notion" />
+  <img src="https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=canva&logoColor=white" alt="Canva" />
+  <img src="https://img.shields.io/badge/Illustrator-FF9A00?style=for-the-badge&logo=adobeillustrator&logoColor=white" alt="Adobe Illustrator" />
+
+</div>
+
+<br>
+<img src="assets/divider.svg" width="100%" />
+<br>
+
+## 🚀 Featured Projects
+
+<table border="0">
+  <tr>
+    <td width="50%" valign="top">
+      <div align="center">
+        <h3>🔍 Focus Aura</h3>
+        <p><i>AI-powered attention monitoring system with a filed patent!</i></p>
+        <p>
+          <img src="https://img.shields.io/badge/Patent_Filed-00BFFF?style=flat-square" alt="Patent Filed" />
+          <img src="https://img.shields.io/badge/AI-8A2BE2?style=flat-square" alt="AI" />
+        </p>
+      </div>
+    </td>
+    <td width="50%" valign="top">
+      <div align="center">
+        <h3>💼 lifefundies</h3>
+        <p><i>A consultancy platform built with Next.js, Firebase & Framer Motion.</i></p>
+        <p>
+          <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square" alt="Next.js" />
+          <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logoColor=black" alt="Firebase" />
+          <img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=flat-square" alt="Framer Motion" />
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <div align="center">
+        <h3>🛰️ CubeSat Collision Detection</h3>
+        <p><i>Collision detection system ranked Top 5 out of 900+ teams globally. Built as a 1st year CSE student.</i></p>
+        <p>
+          <img src="https://img.shields.io/badge/Top_5_Global-8A2BE2?style=flat-square" alt="Top 5 Global" />
+          <img src="https://img.shields.io/badge/IoT-00BFFF?style=flat-square" alt="IoT" />
+        </p>
+      </div>
+    </td>
+    <td width="50%" valign="top">
+      <div align="center">
+        <h3>📝 Smart Task Manager</h3>
+        <p><i>A smart task management web app with smooth animations and responsive design.</i></p>
+        <p>
+          <img src="https://img.shields.io/badge/Web_App-00BFFF?style=flat-square" alt="Web App" />
+          <img src="https://img.shields.io/badge/UI%2FUX-8A2BE2?style=flat-square" alt="UI/UX" />
+        </p>
+      </div>
+    </td>
+  </tr>
+</table>
+
+<br>
+<img src="assets/divider.svg" width="100%" />
+<br>
+
+## 📊 GitHub Statistics
+
+<div align="center">
+  
+  <table border="0">
+    <tr>
+      <td valign="top" width="50%">
+        <img src="https://github-readme-stats.vercel.app/api?username=PushkarSingh1204&show_icons=true&title_color=00BFFF&icon_color=8A2BE2&text_color=c9d1d9&bg_color=0D1117&hide_border=false&border_color=8A2BE2&include_all_commits=true&count_private=true" alt="GitHub Stats" width="100%" />
+      </td>
+      <td valign="top" width="50%">
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=PushkarSingh1204&title_color=00BFFF&text_color=c9d1d9&bg_color=0D1117&hide_border=false&border_color=8A2BE2&include_all_commits=true&count_private=true&layout=compact" alt="Top Languages" width="100%" />
+      </td>
+    </tr>
+  </table>
+  
+  <br>
+  
+  <table border="0">
+    <tr>
+      <td valign="top" width="50%">
+        <img src="https://github-readme-streak-stats.herokuapp.com/?user=PushkarSingh1204&theme=tokyonight&background=0D1117&ring=00BFFF&fire=8A2BE2&currStreakLabel=00BFFF&currStreakNum=ffffff&sideNums=ffffff&sideLabels=c9d1d9&dates=c9d1d9&hide_border=false&border=8A2BE2" alt="Streak Stats" width="100%" />
+      </td>
+      <td valign="top" width="50%">
+        <img src="https://github-contributor-stats.vercel.app/api?username=PushkarSingh1204&limit=5&theme=tokyonight&combine_all_yearly_contributions=true" alt="Top Contributed Repo" width="100%" />
+      </td>
+    </tr>
+  </table>
+
+  <br>
+
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=PushkarSingh1204&bg_color=0D1117&color=00BFFF&line=8A2BE2&point=00BFFF&area=true&hide_border=false&border_color=8A2BE2" alt="Activity Graph" width="100%" />
+
+  <br><br>
+
+  <h4>🏆 GitHub Trophies</h4>
+  <img src="https://github-profile-trophy.vercel.app/?username=PushkarSingh1204&theme=radical&no-frame=false&no-bg=true&margin-w=4" alt="GitHub Trophies" />
+
+  <br><br>
+
+  <h4>✍️ Random Dev Quote</h4>
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Random Dev Quote" />
+
+</div>
+
+<br>
+<img src="assets/divider.svg" width="100%" />
+<br>
+
+## 🐍 Contribution Snake
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/PushkarSingh1204/PushkarSingh1204/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/PushkarSingh1204/PushkarSingh1204/output/github-contribution-grid-snake.svg">
+    <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/PushkarSingh1204/PushkarSingh1204/output/github-contribution-grid-snake.svg" />
+  </picture>
+</div>
+
+<br>
+<img src="assets/divider.svg" width="100%" />
+<br>
+
+## 🔗 Connect With Me
+
+<div align="center">
+  
+  <a href="https://linkedin.com/in/pushkar-singh-78b55b322" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="https://instagram.com/pushkarsngh_57" target="_blank">
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
+  </a>
+  <a href="https://pinterest.com/pushkarsngh_57" target="_blank">
+    <img src="https://img.shields.io/badge/Pinterest-BD081C?style=for-the-badge&logo=pinterest&logoColor=white" alt="Pinterest" />
+  </a>
+  <a href="mailto:pushkarsingh.20061204@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+
+</div>
