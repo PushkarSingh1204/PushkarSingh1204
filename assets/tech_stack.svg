@@ -217,12 +217,12 @@
     <path d="M 500 150 L 500 220" />
     <path d="M 500 500 L 500 430" />
     <!-- Sub Outer Branching -->
-    <path d="M 300 250 L 150 200" />
-    <path d="M 300 350 L 150 325" />
-    <path d="M 300 450 L 150 450" />
-    <path d="M 700 250 L 850 200" />
-    <path d="M 700 350 L 850 325" />
-    <path d="M 700 450 L 850 450" />
+    <path d="M 300 250 L 140 200" />
+    <path d="M 300 350 L 140 325" />
+    <path d="M 300 450 L 140 450" />
+    <path d="M 700 250 L 860 200" />
+    <path d="M 700 350 L 860 325" />
+    <path d="M 700 450 L 860 450" />
   </g>
 
   <!-- Animated Circuit Pulses -->
@@ -259,9 +259,12 @@
   <!-- LANGS and RUNTIMES (LEFT SIDE) -->
   
   <!-- 1. HTML5 -->
-  <g class="tech-node awaken-node" style="animation-delay: 0.1s; transform-origin: 300px 150px;" transform="translate(0,0)">
+  <g class="tech-node awaken-node" style="animation-delay: 0.1s; transform-origin: 300px 150px;">
     <rect x="220" y="130" width="160" height="40" rx="8" fill="#0D1117" stroke="#E34F26" stroke-width="2" filter="url(#glow-purple)"/>
-    <text x="300" y="155" font-size="12" text-anchor="middle" font-weight="bold">HTML5</text>
+    <!-- Icon: Shield -->
+    <path d="M233,141 L247,141 L245,153 L240,156 L235,153 Z" fill="#E34F26" />
+    <path d="M240,143 L240,154 L243,152 L244,143 Z" fill="#F06529" />
+    <text x="262" y="155" font-size="12" font-weight="bold" text-anchor="start">HTML5</text>
     <!-- Custom Orbiting Particles -->
     <circle cx="300" cy="150" r="100" fill="none" />
     <g class="orbit-particle">
@@ -273,7 +276,10 @@
   <!-- 2. CSS3 -->
   <g class="tech-node awaken-node" style="animation-delay: 0.2s; transform-origin: 300px 250px;">
     <rect x="220" y="230" width="160" height="40" rx="8" fill="#0D1117" stroke="#1572B6" stroke-width="2" filter="url(#glow-blue)"/>
-    <text x="300" y="255" font-size="12" text-anchor="middle" font-weight="bold">CSS3</text>
+    <!-- Icon: Shield -->
+    <path d="M233,241 L247,241 L245,253 L240,256 L235,253 Z" fill="#1572B6" />
+    <path d="M240,243 L240,254 L243,252 L244,243 Z" fill="#29ABE2" />
+    <text x="262" y="255" font-size="12" font-weight="bold" text-anchor="start">CSS3</text>
     <!-- Custom Wave flow path -->
     <path d="M 230 250 Q 265 240 300 250 T 370 250" fill="none" stroke="#00BFFF" stroke-width="1.5" class="css-wave" opacity="0.7"/>
   </g>
@@ -281,7 +287,10 @@
   <!-- 3. JavaScript -->
   <g class="tech-node awaken-node" style="animation-delay: 0.3s; transform-origin: 300px 350px;">
     <rect x="220" y="330" width="160" height="40" rx="8" fill="#0D1117" stroke="#F7DF1E" stroke-width="2" filter="url(#glow-purple)"/>
-    <text x="300" y="355" font-size="12" text-anchor="middle" font-weight="bold">JAVASCRIPT</text>
+    <!-- Icon: Yellow Badge -->
+    <rect x="233" y="342" width="16" height="16" rx="2" fill="#F7DF1E" />
+    <text x="241" y="353" font-size="8" fill="black" font-weight="bold" text-anchor="middle">JS</text>
+    <text x="262" y="355" font-size="12" font-weight="bold" text-anchor="start">JAVASCRIPT</text>
     <!-- Custom Lightning Spark -->
     <path d="M 235 340 L 245 350 L 240 355 L 255 365" fill="none" stroke="#F7DF1E" stroke-width="2" class="spark" filter="url(#glow-blue)"/>
     <path d="M 365 340 L 355 350 L 360 355 L 345 365" fill="none" stroke="#F7DF1E" stroke-width="2" class="spark" filter="url(#glow-blue)" style="animation-delay: 1.5s;"/>
@@ -290,7 +299,10 @@
   <!-- 4. TypeScript -->
   <g class="tech-node awaken-node" style="animation-delay: 0.4s; transform-origin: 300px 450px;">
     <rect x="220" y="430" width="160" height="40" rx="8" fill="#0D1117" stroke="#3178C6" stroke-width="2" filter="url(#glow-blue)"/>
-    <text x="300" y="455" font-size="12" text-anchor="middle" font-weight="bold">TYPESCRIPT</text>
+    <!-- Icon: Blue Badge -->
+    <rect x="233" y="442" width="16" height="16" rx="2" fill="#3178C6" />
+    <text x="241" y="453" font-size="8" fill="white" font-weight="bold" text-anchor="middle">TS</text>
+    <text x="262" y="455" font-size="12" font-weight="bold" text-anchor="start">TYPESCRIPT</text>
     <!-- Custom Holographic Scanline -->
     <g class="scan-line" transform="translate(220, 450)">
       <rect x="2" width="156" height="5" fill="url(#scan-grad)"/>
@@ -300,7 +312,10 @@
   <!-- 5. Python -->
   <g class="tech-node awaken-node" style="animation-delay: 0.5s; transform-origin: 300px 550px;">
     <rect x="220" y="530" width="160" height="40" rx="8" fill="#0D1117" stroke="#3776AB" stroke-width="2" filter="url(#glow-purple)"/>
-    <text x="300" y="555" font-size="12" text-anchor="middle" font-weight="bold">PYTHON</text>
+    <!-- Icon: Interlocking Orbits -->
+    <circle cx="237" cy="546" r="4.5" fill="#3776AB" />
+    <circle cx="244" cy="553" r="4.5" fill="#FFE052" />
+    <text x="262" y="555" font-size="12" font-weight="bold" text-anchor="start">PYTHON</text>
     <!-- Helix Energy Streams -->
     <path d="M 230 550 C 265 540 335 560 370 550" fill="none" stroke="#00BFFF" stroke-width="1.5" class="helix-a" />
     <path d="M 230 550 C 265 560 335 540 370 550" fill="none" stroke="#8A2BE2" stroke-width="1.5" class="helix-b" />
@@ -311,25 +326,35 @@
   <!-- 6. Next.js -->
   <g class="tech-node awaken-node" style="animation-delay: 0.15s; transform-origin: 700px 150px;">
     <rect x="620" y="130" width="160" height="40" rx="8" fill="#0D1117" stroke="#8A2BE2" stroke-width="2" filter="url(#glow-purple)"/>
-    <text x="700" y="155" font-size="12" text-anchor="middle" font-weight="bold">NEXT.JS</text>
+    <!-- Icon: Black circle with N -->
+    <circle cx="641" cy="150" r="9" fill="black" stroke="white" stroke-width="1" />
+    <text x="641" y="153" font-size="8" fill="white" font-weight="bold" text-anchor="middle">N</text>
+    <text x="662" y="155" font-size="12" font-weight="bold" text-anchor="start">NEXT.JS</text>
   </g>
 
   <!-- 7. Framer Motion -->
   <g class="tech-node awaken-node" style="animation-delay: 0.25s; transform-origin: 700px 250px;">
     <rect x="620" y="230" width="160" height="40" rx="8" fill="#0D1117" stroke="#0055FF" stroke-width="2" filter="url(#glow-blue)"/>
-    <text x="700" y="255" font-size="11" text-anchor="middle" font-weight="bold">FRAMER MOTION</text>
+    <!-- Icon: Geometric Shape -->
+    <polygon points="633,242 649,242 641,250" fill="#0055FF" />
+    <polygon points="641,250 649,258 633,258" fill="#FF00C8" />
+    <text x="662" y="255" font-size="11" font-weight="bold" text-anchor="start">FRAMER MOTION</text>
   </g>
 
   <!-- 8. TensorFlow -->
   <g class="tech-node awaken-node" style="animation-delay: 0.35s; transform-origin: 700px 350px;">
     <rect x="620" y="330" width="160" height="40" rx="8" fill="#0D1117" stroke="#FF6F00" stroke-width="2" filter="url(#glow-purple)"/>
-    <text x="700" y="355" font-size="12" text-anchor="middle" font-weight="bold">TENSORFLOW</text>
+    <!-- Icon: Hex block -->
+    <polygon points="633,346 641,341 649,346 649,355 641,360 633,355" fill="#FF6F00" />
+    <text x="662" y="355" font-size="12" font-weight="bold" text-anchor="start">TENSORFLOW</text>
   </g>
 
   <!-- 9. Firebase -->
   <g class="tech-node awaken-node" style="animation-delay: 0.45s; transform-origin: 700px 450px;">
     <rect x="620" y="430" width="160" height="40" rx="8" fill="#0D1117" stroke="#FFCA28" stroke-width="2" filter="url(#glow-blue)"/>
-    <text x="700" y="455" font-size="12" text-anchor="middle" font-weight="bold">FIREBASE</text>
+    <!-- Icon: Orange flame -->
+    <path d="M635,454 L641,440 L647,454 L641,457 Z" fill="#FFCA28" />
+    <text x="662" y="455" font-size="12" font-weight="bold" text-anchor="start">FIREBASE</text>
   </g>
 
   <!-- IoT and HARDWARE (TOP/BOTTOM CENTER) -->
@@ -337,63 +362,94 @@
   <!-- 10. Arduino -->
   <g class="tech-node awaken-node" style="animation-delay: 0.3s; transform-origin: 500px 100px;">
     <rect x="420" y="80" width="160" height="40" rx="8" fill="#0D1117" stroke="#00979D" stroke-width="2" filter="url(#glow-blue)"/>
-    <text x="500" y="105" font-size="12" text-anchor="middle" font-weight="bold">ARDUINO</text>
+    <!-- Icon: Infinity -->
+    <circle cx="436" cy="100" r="4.5" fill="none" stroke="#00979D" stroke-width="1.5" />
+    <circle cx="444" cy="100" r="4.5" fill="none" stroke="#00979D" stroke-width="1.5" />
+    <text x="462" y="105" font-size="12" font-weight="bold" text-anchor="start">ARDUINO</text>
   </g>
 
   <!-- 11. Raspberry Pi -->
   <g class="tech-node awaken-node" style="animation-delay: 0.4s; transform-origin: 500px 550px;">
     <rect x="420" y="530" width="160" height="40" rx="8" fill="#0D1117" stroke="#C51A4A" stroke-width="2" filter="url(#glow-purple)"/>
-    <text x="500" y="555" font-size="12" text-anchor="middle" font-weight="bold">RASPBERRY PI</text>
+    <!-- Icon: Berry and Leaf -->
+    <circle cx="439" cy="552" r="5" fill="#C51A4A" />
+    <path d="M436,546 Q439,549 442,546" fill="none" stroke="#228B22" stroke-width="1.5" />
+    <text x="462" y="555" font-size="12" font-weight="bold" text-anchor="start">RASPBERRY PI</text>
   </g>
 
   <!-- TOOLS, DESIGN and VCS (OUTER PERIPHERY) -->
 
   <!-- 12. Git -->
-  <g class="tech-node awaken-node" style="animation-delay: 0.1s; transform-origin: 70px 200px;">
-    <rect x="20" y="180" width="100" height="40" rx="6" fill="#0D1117" stroke="#F05032" stroke-width="1.5" filter="url(#glow-purple)"/>
-    <text x="70" y="205" font-size="11" text-anchor="middle" font-weight="bold">GIT</text>
+  <g class="tech-node awaken-node" style="animation-delay: 0.1s; transform-origin: 80px 200px;">
+    <rect x="20" y="180" width="120" height="40" rx="6" fill="#0D1117" stroke="#F05032" stroke-width="1.5" filter="url(#glow-purple)"/>
+    <!-- Icon: Git Fork -->
+    <circle cx="34" cy="194" r="2.5" fill="none" stroke="#F05032" stroke-width="1.5" />
+    <circle cx="34" cy="206" r="2.5" fill="none" stroke="#F05032" stroke-width="1.5" />
+    <path d="M34,196.5 L34,203.5" stroke="#F05032" stroke-width="1.5" />
+    <path d="M34,200 Q41,200 46,200" stroke="#F05032" stroke-width="1.5" fill="none" />
+    <text x="54" y="205" font-size="11" font-weight="bold" text-anchor="start">GIT</text>
   </g>
 
   <!-- 13. GitHub -->
-  <g class="tech-node awaken-node" style="animation-delay: 0.2s; transform-origin: 70px 325px;">
-    <rect x="20" y="305" width="100" height="40" rx="6" fill="#0D1117" stroke="#ffffff" stroke-width="1.5" filter="url(#glow-blue)"/>
-    <text x="70" y="330" font-size="11" text-anchor="middle" font-weight="bold">GITHUB</text>
+  <g class="tech-node awaken-node" style="animation-delay: 0.2s; transform-origin: 80px 325px;">
+    <rect x="20" y="305" width="120" height="40" rx="6" fill="#0D1117" stroke="#ffffff" stroke-width="1.5" filter="url(#glow-blue)"/>
+    <!-- Icon: Silhouette -->
+    <circle cx="35" cy="325" r="5" fill="white" />
+    <path d="M32,321 L31,323 M38,321 L39,323" stroke="white" stroke-width="1" />
+    <text x="54" y="330" font-size="11" font-weight="bold" text-anchor="start">GITHUB</text>
   </g>
 
   <!-- 14. Figma -->
-  <g class="tech-node awaken-node" style="animation-delay: 0.3s; transform-origin: 70px 450px;">
-    <rect x="20" y="430" width="100" height="40" rx="6" fill="#0D1117" stroke="#F24E1E" stroke-width="1.5" filter="url(#glow-purple)"/>
-    <text x="70" y="455" font-size="11" text-anchor="middle" font-weight="bold">FIGMA</text>
+  <g class="tech-node awaken-node" style="animation-delay: 0.3s; transform-origin: 80px 450px;">
+    <rect x="20" y="430" width="120" height="40" rx="6" fill="#0D1117" stroke="#F24E1E" stroke-width="1.5" filter="url(#glow-purple)"/>
+    <!-- Icon: Colored circles -->
+    <circle cx="32" cy="445" r="3" fill="#F24E1E" />
+    <circle cx="38" cy="445" r="3" fill="#A259FF" />
+    <circle cx="32" cy="451" r="3" fill="#0ACF83" />
+    <circle cx="38" cy="451" r="3" fill="#1ABC9C" />
+    <text x="54" y="455" font-size="11" font-weight="bold" text-anchor="start">FIGMA</text>
   </g>
 
   <!-- 15. Postman -->
-  <g class="tech-node awaken-node" style="animation-delay: 0.15s; transform-origin: 930px 200px;">
-    <rect x="880" y="180" width="100" height="40" rx="6" fill="#0D1117" stroke="#FF6C37" stroke-width="1.5" filter="url(#glow-blue)"/>
-    <text x="930" y="205" font-size="11" text-anchor="middle" font-weight="bold">POSTMAN</text>
+  <g class="tech-node awaken-node" style="animation-delay: 0.15s; transform-origin: 920px 200px;">
+    <rect x="860" y="180" width="120" height="40" rx="6" fill="#0D1117" stroke="#FF6C37" stroke-width="1.5" filter="url(#glow-blue)"/>
+    <!-- Icon: Rocket -->
+    <path d="M871,203 L875,193 L879,203 Z" fill="#FF6C37" />
+    <text x="894" y="205" font-size="11" font-weight="bold" text-anchor="start">POSTMAN</text>
   </g>
 
   <!-- 16. Notion -->
-  <g class="tech-node awaken-node" style="animation-delay: 0.25s; transform-origin: 930px 325px;">
-    <rect x="880" y="305" width="100" height="40" rx="6" fill="#0D1117" stroke="#ffffff" stroke-width="1.5" filter="url(#glow-purple)"/>
-    <text x="930" y="330" font-size="11" text-anchor="middle" font-weight="bold">NOTION</text>
+  <g class="tech-node awaken-node" style="animation-delay: 0.25s; transform-origin: 920px 325px;">
+    <rect x="860" y="305" width="120" height="40" rx="6" fill="#0D1117" stroke="#ffffff" stroke-width="1.5" filter="url(#glow-purple)"/>
+    <!-- Icon: White block with N -->
+    <rect x="870" y="318" width="10" height="10" rx="1.5" fill="white" stroke="black" stroke-width="1" />
+    <text x="875" y="326" font-size="7" fill="black" font-weight="bold" text-anchor="middle">N</text>
+    <text x="894" y="330" font-size="11" font-weight="bold" text-anchor="start">NOTION</text>
   </g>
 
   <!-- 17. Canva -->
-  <g class="tech-node awaken-node" style="animation-delay: 0.35s; transform-origin: 930px 450px;">
-    <rect x="880" y="430" width="100" height="40" rx="6" fill="#0D1117" stroke="#00C4CC" stroke-width="1.5" filter="url(#glow-blue)"/>
-    <text x="930" y="455" font-size="11" text-anchor="middle" font-weight="bold">CANVA</text>
+  <g class="tech-node awaken-node" style="animation-delay: 0.35s; transform-origin: 920px 450px;">
+    <rect x="860" y="430" width="120" height="40" rx="6" fill="#0D1117" stroke="#00C4CC" stroke-width="1.5" filter="url(#glow-blue)"/>
+    <!-- Icon: Teal circle -->
+    <circle cx="875" cy="450" r="6" fill="#00C4CC" />
+    <text x="894" y="455" font-size="11" font-weight="bold" text-anchor="start">CANVA</text>
   </g>
 
   <!-- 18. Adobe Illustrator -->
-  <g class="tech-node awaken-node" style="animation-delay: 0.45s; transform-origin: 930px 550px;">
-    <rect x="880" y="530" width="100" height="40" rx="6" fill="#0D1117" stroke="#FF9A00" stroke-width="1.5" filter="url(#glow-purple)"/>
-    <text x="930" y="555" font-size="10" text-anchor="middle" font-weight="bold">ILLUSTRATOR</text>
+  <g class="tech-node awaken-node" style="animation-delay: 0.45s; transform-origin: 920px 550px;">
+    <rect x="860" y="530" width="120" height="40" rx="6" fill="#0D1117" stroke="#FF9A00" stroke-width="1.5" filter="url(#glow-purple)"/>
+    <!-- Icon: Orange block with Ai -->
+    <rect x="870" y="543" width="10" height="10" rx="1.5" fill="#330000" stroke="#FF9A00" stroke-width="1" />
+    <text x="875" y="551" font-size="6" fill="#FF9A00" font-weight="bold" text-anchor="middle">Ai</text>
+    <text x="894" y="555" font-size="10" font-weight="bold" text-anchor="start">ILLUSTRATOR</text>
   </g>
 
   <!-- 19. Node.js (Floating below reactor) -->
   <g class="tech-node awaken-node" style="animation-delay: 0.5s; transform-origin: 500px 450px;">
     <rect x="420" y="430" width="160" height="40" rx="8" fill="#0D1117" stroke="#339933" stroke-width="2" filter="url(#glow-blue)"/>
-    <text x="500" y="455" font-size="12" text-anchor="middle" font-weight="bold">NODE.JS</text>
+    <!-- Icon: Green Hexagon -->
+    <polygon points="433,446 441,441 449,446 449,455 441,460 433,455" fill="#339933" />
+    <text x="462" y="455" font-size="12" font-weight="bold" text-anchor="start">NODE.JS</text>
     <!-- Matrix falling dots -->
     <g class="matrix-dot" transform="translate(500, 450)">
       <circle cx="-65" cy="-20" r="1.5" fill="#339933" />
